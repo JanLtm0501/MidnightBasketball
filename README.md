@@ -1,9 +1,9 @@
 # MidnightBasketball
-Erstes Projekt an der RFH.
+First project at RFH. 
 
-In diesem Projekt entwerfen wir unsere erste Webseite.
-Wir haben bis jetzt noch keine Erfahrungen mit der Erstellung von Webseiten gesammelt.
+In this project, we are designing our first website. We have not gathered any experience in creating websites so far.
 
-Die Webseite ist für ein Sportangebot der Stadt Köln, welche Kinder -und Jugendlichen anbietet, jeden Freitag von 22Uhr - 0 Uhr Basketball zu spielen.
+The website is for a sports program in the city of Cologne that offers young people the opportunity to play basketball every Friday night.
+
 
 
