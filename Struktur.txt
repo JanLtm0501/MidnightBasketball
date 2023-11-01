@@ -1,4 +1,24 @@
 Was wir brauchen:
-index.html
 
-impressum.html
+Logo:
+-erstellen
+-einbinden
+-png Datei (richtiges Format) was man immer einfügen kann
+
+Startseite:
+-Logo
+-verschiedene Reiter (1)
+-Bilder
+-Hintergrundbild
+-Sprache
+
+Reiter: (1)
+-Reiter1: Über uns //Link Stadt Köln: https://www.stadt-koeln.de/artikel/05417/index.html + Text von Stadt Köln (was ist MidnightBasketball?)
+-Reiter2: 
+-Reiter3: Anfahrt 
+
+
+
+
+Impressum:
+
