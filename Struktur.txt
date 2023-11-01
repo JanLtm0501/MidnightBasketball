@@ -1,6 +1,8 @@
 Was wir brauchen:
 
 DC: 04.11 um 12 Uhr
+Ziel Jan: Struktur vervollständigen, min. 5 Internetseiten raussuchen
+Ziel Andreas: Struktur vervollständigen, min. 5 Internetseiten raussuchen
 
 Beispiel-Internetseiten:
 Otto.de
@@ -18,10 +20,11 @@ Startseite:
 -Hintergrundbild
 -Sprache
 
-Reiter: (1)
+Reiter: (1) maximal 8 Stück
 -Reiter1: Über uns //Link Stadt Köln: https://www.stadt-koeln.de/artikel/05417/index.html + Text von Stadt Köln (was ist MidnightBasketball?)
 -Reiter2: 
 -Reiter3: Anfahrt/Kontakt // Anfahrtsweg (Adresse), Whattapp Einladungslink
+
 
 Bilder: (2)
 -Halle
@@ -34,5 +37,5 @@ Farben: (4)
 -
 -
 
-Impressum:
+Impressum: (was ist ein Impressum? was kommt rein?)
 
