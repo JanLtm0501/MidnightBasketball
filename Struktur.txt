@@ -1,24 +1,36 @@
 Was wir brauchen:
 
+Beispiel-Internetseiten:
+Otto.de
+
+
 Logo:
 -erstellen
 -einbinden
 -png Datei (richtiges Format) was man immer einfügen kann
 
 Startseite:
--Logo
 -verschiedene Reiter (1)
--Bilder
+-Bilder (2)
+-Logo (3)
 -Hintergrundbild
 -Sprache
 
 Reiter: (1)
 -Reiter1: Über uns //Link Stadt Köln: https://www.stadt-koeln.de/artikel/05417/index.html + Text von Stadt Köln (was ist MidnightBasketball?)
 -Reiter2: 
--Reiter3: Anfahrt 
+-Reiter3: Anfahrt/Kontakt // Anfahrtsweg (Adresse), Whattapp Einladungslink
 
+Bilder: (2)
+-Halle
 
+Logo: (3) 
+-selber machen? Internet?
 
+Farben: (4)
+-Schrift #xxxxxx
+-
+-
 
 Impressum:
 
