@@ -1,0 +1,52 @@
+Was wir brauchen:
+
+DC: 05.11 um 12 Uhr 
+Ziel Jan: Struktur vervollständigen, min. 5 Internetseiten raussuchen
+Ziel Andreas: Struktur vervollständigen, min. 5 Internetseiten raussuchen
+
+DC: 12.11 um 12 Uhr?
+Ziel Jan: 
+Ziel Andreas:
+------------------------------------------------------------------------------------------------------------------------------------------------
+Beispiel-Internetseiten:
+Jan: 
+Otto.de
+www.microsoft.com
+https://basketball.de
+https://www.basketball-bund.de
+https://fc.de
+https://fokus.so
+
+Andreas:
+
+
+
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+-> Emmet Plugin installieren //Option: Open in Browser (Udemy-Kurs Abschnitt 17)
+-> wir brauchen ein Blueprint (Zeichnung, wie die Seite ungefähr aussehen soll)
+-> Ordnerstruktur anlegen (Udemy-Kurs Abschnitt 12)
+-> HTML & CSS Dateien anlegen (Udemy-Kurs Abschnitt 12)
+-------------------------------------------------------------------------------------------------------------------------------------------------
+Was erstellt Werden muss: HTML & CSS
+1.) Navigationsleiste und Logo
+2.) Header-Banner auf allen Seiten
+3.) Grid-System entwickeln
+4.) Newsletter-Bereich
+5.) Leistungen-Bereich
+6.) Video-Bereich
+7.) Ansprechpartner/Anfahrt-Bereich (Kontaktseite)
+8.) Über-uns-Bereich/Sportjugendköln/Stadt Köln
+9.) Footer-Bereich
+10.) Das Impressum
+11.) Amimationen/Transitions
+
+Optimierungen/Bugfixing (Udemy 44)
+
+Webseite fertig stellen
+-------------------------------------------------------------------------------------------------------------------------------------------------
+Was erstellt werden muss: JavaScript
+1.) Countdown bis zum nächsten 3vs3 Turnier
+2.) evtl. Karte, wo die anderen Hallen in Köln sind (Deutz usw.)
