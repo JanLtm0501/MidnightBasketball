@@ -4,6 +4,9 @@ DC: 05.11 um 12 Uhr
 Ziel Jan: Struktur vervollständigen, min. 5 Internetseiten raussuchen
 Ziel Andreas: Struktur vervollständigen, min. 5 Internetseiten raussuchen
 
+//Meetinginhalt:
+Besprechung von Ziel, Dokumentation von Projekt (Ablauf), Blueprint erstellen, Inhalt der Webseite finalisieren
+
 DC: 12.11 um 12 Uhr?
 Ziel Jan: 
 Ziel Andreas:
@@ -31,7 +34,7 @@ Andreas:
 -> HTML & CSS Dateien anlegen (Udemy-Kurs Abschnitt 12)
 -------------------------------------------------------------------------------------------------------------------------------------------------
 Was erstellt Werden muss: HTML & CSS
-1.) Navigationsleiste und Logo
+1.) Navigationsleiste und Logo 
 2.) Header-Banner auf allen Seiten
 3.) Grid-System entwickeln
 4.) Newsletter-Bereich
