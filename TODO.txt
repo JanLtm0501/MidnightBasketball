@@ -5,7 +5,7 @@ Ziel Jan: Struktur vervollständigen, min. 5 Internetseiten raussuchen
 Ziel Andreas: Struktur vervollständigen, min. 5 Internetseiten raussuchen
 
 //Meetinginhalt:
-Besprechung von Ziel, Dokumentation von Projekt (Ablauf) //Bei einer Programmier-Arbeit: Ergänzende textliche Erläuterungen neben SW-Code einreichen!, Blueprint erstellen, Inhalt der Webseite aufschreiben (Textform zum Blueprint)
+Besprechung von Ziel, Dokumentation von Projekt (Ablauf) //Bei einer Programmier-Arbeit: Ergänzende textliche Erläuterungen neben SW-Code einreichen!, Blueprint erstellen, Inhalt der Webseite aufschreiben (Textform zum Blueprint) //fertig
 
 DC: 10.11 um 12 Uhr?
 Ziel Jan: Header, wenn fertig vllt mit Reitern anfangen
