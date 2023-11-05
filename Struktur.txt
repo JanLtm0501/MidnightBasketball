@@ -5,7 +5,7 @@ Logo:
 
 Design:
 -Schrift #xxxxxx
--
+-Schriftart: Arial, sans-serif
 -
 
 
