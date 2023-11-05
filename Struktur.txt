@@ -3,6 +3,12 @@ Logo:
 -einbinden
 -png Datei (richtiges Format) was man immer einfügen kann
 
+Design:
+-Schrift #xxxxxx
+-
+-
+
+
 Startseite/Header //Jan
 -verschiedene Reiter (1)
 -Bilder (2)
@@ -17,18 +23,6 @@ Reiter: (1) maximal 8 Stück
 Reiter4: Kalender (Events) //Andreas
 -Reiter: Anfahrt/Kontakt // Anfahrtsweg (Dreifachturnhalle Heerstraße Zündorf Gymnasium), Whattapp Einladungslink //Andreas
 -Reiter: 3x3 + countdown + Teamanmeldung (random Teams) //Jan
-
-
-Bilder: (2)
--Halle
-
-Logo: (3) 
--selber machen? Internet?
-
-Farben: (4)
--Schrift #xxxxxx
--
--
 
 Impressum: (was ist ein Impressum? was kommt rein?) //Andreas
 
