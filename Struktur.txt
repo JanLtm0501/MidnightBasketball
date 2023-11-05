@@ -3,7 +3,7 @@ Logo:
 -einbinden
 -png Datei (richtiges Format) was man immer einfügen kann
 
-Startseite:
+Startseite/Header //Jan
 -verschiedene Reiter (1)
 -Bilder (2)
 -Logo (3)
@@ -29,5 +29,5 @@ Farben: (4)
 -
 -
 
-Impressum: (was ist ein Impressum? was kommt rein?)
+Impressum: (was ist ein Impressum? was kommt rein?) //Andreas
 
