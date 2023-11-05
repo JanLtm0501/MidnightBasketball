@@ -5,7 +5,7 @@ Ziel Jan: Struktur vervollständigen, min. 5 Internetseiten raussuchen
 Ziel Andreas: Struktur vervollständigen, min. 5 Internetseiten raussuchen
 
 //Meetinginhalt:
-Besprechung von Ziel, Dokumentation von Projekt (Ablauf) //Bei einer Programmier-Arbeit: Ergänzende textliche Erläuterungen neben SW-Code einreichen!, Blueprint erstellen, Inhalt der Webseite finalisieren
+Besprechung von Ziel, Dokumentation von Projekt (Ablauf) //Bei einer Programmier-Arbeit: Ergänzende textliche Erläuterungen neben SW-Code einreichen!, Blueprint erstellen, Inhalt der Webseite aufschreiben (Textform zum Blueprint)
 
 DC: 12.11 um 12 Uhr?
 Ziel Jan: 
@@ -52,4 +52,5 @@ Webseite fertig stellen
 -------------------------------------------------------------------------------------------------------------------------------------------------
 Was erstellt werden muss: JavaScript
 1.) Countdown bis zum nächsten 3vs3 Turnier
-2.) evtl. Karte, wo die anderen Hallen in Köln sind (Deutz usw.)
+2.) King of the court (mit countdown mit aktuellem Namen des Gewinners)
+3.) evtl. Karte, wo die anderen Hallen in Köln sind (Deutz usw.)
