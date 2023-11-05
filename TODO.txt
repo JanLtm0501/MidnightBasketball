@@ -34,21 +34,21 @@ https://www.asv-koeln.de/kindersport
 -> HTML & CSS Dateien anlegen (Udemy-Kurs Abschnitt 12)
 -------------------------------------------------------------------------------------------------------------------------------------------------
 Was erstellt Werden muss: HTML & CSS
-1.) Navigationsleiste und Logo 
+1.) Navigationsleiste und Logo //Jan
 2.) Header-Banner auf allen Seiten
-3.) Grid-System entwickeln
+3.) Grid-System entwickeln //Jan
 4.) Newsletter-Bereich
 5.) Leistungen-Bereich
 6.) Video-Bereich
 7.) Ansprechpartner/Anfahrt-Bereich (Kontaktseite)
 8.) Über-uns-Bereich/Sportjugendköln/Stadt Köln
 9.) Footer-Bereich
-10.) Das Impressum
-11.) Amimationen/Transitions
+10.) Das Impressum //Andreas
+11.) Amimationen/Transitions //Jan/Andreas
 
-Optimierungen/Bugfixing (Udemy 44)
+Optimierungen/Bugfixing (Udemy 44) //Jan/Andreas
 
-Webseite fertig stellen
+Webseite fertig stellen //Jan/Andreas
 -------------------------------------------------------------------------------------------------------------------------------------------------
 Was erstellt werden muss: JavaScript
 1.) Countdown bis zum nächsten 3vs3 Turnier
