@@ -29,8 +29,8 @@ https://www.asv-koeln.de/kindersport
 
 -------------------------------------------------------------------------------------------------------------------------------------------------
 -> Emmet Plugin installieren //Option: Open in Browser (Udemy-Kurs Abschnitt 17)
--> wir brauchen ein Blueprint (Zeichnung, wie die Seite ungefähr aussehen soll)
--> Ordnerstruktur anlegen (Udemy-Kurs Abschnitt 12)
+-> wir brauchen ein Blueprint (Zeichnung, wie die Seite ungefähr aussehen soll) fertig
+-> Ordnerstruktur anlegen (Udemy-Kurs Abschnitt 12) //Jan
 -> HTML & CSS Dateien anlegen (Udemy-Kurs Abschnitt 12)
 -------------------------------------------------------------------------------------------------------------------------------------------------
 Was erstellt Werden muss: HTML & CSS
