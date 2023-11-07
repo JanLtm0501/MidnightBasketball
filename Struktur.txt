@@ -4,7 +4,7 @@ Logo:
 -png Datei (richtiges Format) was man immer einfügen kann
 
 Design:
--Schrift #xxxxxx
+-Schrift rgb(19, 71, 54);
 -Schriftart: Arial, sans-serif
 -
 
