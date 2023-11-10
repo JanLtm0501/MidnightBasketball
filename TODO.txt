@@ -9,7 +9,7 @@ Besprechung von Ziel, Dokumentation von Projekt (Ablauf) //Bei einer Programmier
 
 DC: 10.11 um 12 Uhr?
 Ziel Jan: Reiter dann Header(Banner)
-Ziel Andreas: Impressum, wenn fertig vllt mit Reitern anfangen
+Ziel Andreas: Impressum
 ------------------------------------------------------------------------------------------------------------------------------------------------
 Beispiel-Internetseiten:
 Jan: 
