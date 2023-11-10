@@ -8,8 +8,12 @@ Ziel Andreas: Struktur vervollständigen, min. 5 Internetseiten raussuchen
 Besprechung von Ziel, Dokumentation von Projekt (Ablauf) //Bei einer Programmier-Arbeit: Ergänzende textliche Erläuterungen neben SW-Code einreichen!, Blueprint erstellen, Inhalt der Webseite aufschreiben (Textform zum Blueprint) //fertig
 
 DC: 10.11 um 12 Uhr?
-Ziel Jan: Reiter dann Header(Banner)
-Ziel Andreas: Impressum
+Ziel Jan: Bilder machen, Reiter, Header(Banner), 3x3 anfangen
+Ziel Andreas: Impressum fertig machen und dann mit Info/Kontakt anfangen
+
+DC: 18.11 11 Uhr
+Ziel Jan: Banner, Grid System
+Ziel Andreas: 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 Beispiel-Internetseiten:
 Jan: 
