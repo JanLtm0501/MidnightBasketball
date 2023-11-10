@@ -12,8 +12,8 @@ Ziel Jan: Bilder machen, Reiter, Header(Banner), 3x3 anfangen
 Ziel Andreas: Impressum fertig machen und dann mit Info/Kontakt anfangen
 
 DC: 18.11 11 Uhr
-Ziel Jan: Banner, Grid System
-Ziel Andreas: 
+Ziel Jan: Banner, Grid System, 
+Ziel Andreas: Impressum fertig und mit Kontakt/Info-Reiter anfangen
 ------------------------------------------------------------------------------------------------------------------------------------------------
 Beispiel-Internetseiten:
 Jan: 
