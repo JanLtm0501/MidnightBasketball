@@ -80,8 +80,14 @@ body {
 
 
 /*Header-Banner*/
-...
 
+.header-banner {
+    width: 100%;
+    height: 0;
+    padding-top: 56.27%; /*erzeugt höhe in Abhängigkeit zur Breite //Rechnung: 484:860*100=56,27*/
+    background: url("../img/wp2840961.jpg") no-repeat center center; /*.. = eine Ebene nach oben und c c für Banner mittig*/
+    background-size: contain; /*automatisch Änderung der Bannergröße*/
+}
 
 /* Grid-System*/
 
