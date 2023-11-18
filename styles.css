@@ -84,9 +84,27 @@ body {
 .header-banner {
     width: 100%;
     height: 0;
-    padding-top: 56.27%; /*erzeugt höhe in Abhängigkeit zur Breite //Rechnung: 484:860*100=56,27*/
-    background: url("../img/wp2840961.jpg") no-repeat center center; /*.. = eine Ebene nach oben und c c für Banner mittig*/
+    padding-top: 20%; /*erzeugt höhe in Abhängigkeit zur Breite //Rechnung: 366:1920*100=19.06*/
+    background: url("../img/BannerFinal.png") no-repeat center center; /*.. = eine Ebene nach oben und c c für Banner mittig*/
     background-size: contain; /*automatisch Änderung der Bannergröße*/
+}
+
+/* Grid-System (Sichtbarkeit)*/
+
+.border, .border * {
+    border: 1px solid rgb(239, 134, 89);
+}
+
+[class *='col-'] {
+    background-color: orange;
+}
+
+p {
+    background-color:rgb(147, 12, 12);
+    padding: 0;
+    margin: 0;
+    color: #ffffff;
+    text-align: center;
 }
 
 /* Grid-System*/
@@ -95,4 +113,61 @@ body {
     width: 95%;
     margin-left: auto;
     margin-right: auto; /*Container von links und rechts zentriert*/
+}
+
+.row::after { /*sogenannter "clearfix hack" damit die rows nicht floaten*/
+    content: "";
+    clear: both;
+    display: block;
+}
+
+[class *='col-'] {
+    float: left;
+    min-height: 1px;
+    height: 100px;
+    padding: .8rem; /*col´s-Inhalt auseinadner*/
+}
+
+.col-1 { width: 16.666%; }
+
+.col-2 { width: 33.333%; }
+
+.col-3 { width: 50%;     }
+
+.col-6 { width: 100%;    }
+
+/*
+===BREAKPOINT FÜR ENDGERÄTE===
+320px iPhone
+480px iPhone Querformat
+768px iPad
+1024px iPad Querformat
+1200px Latop
+>1200px größere Endgeräte
+
+*/
+
+@media (max-width: 1024px) {
+
+    .col-1 { width: 33.333%; }
+
+}
+
+@media (max-width: 768px) {
+
+    .col-1 { width: 50%;  }
+
+    .col-2 { width: 100%; }
+
+    .col-3 { width: 100%; }  
+}
+
+@meida (max-width: 488px) {
+
+    .col-1 { width: 100%; }
+
+    .col-2 { width: 100%; }
+
+    .col-3 { width: 100%; }
+
 }
