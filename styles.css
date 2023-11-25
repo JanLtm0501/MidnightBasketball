@@ -92,20 +92,29 @@ body {
 /* Grid-System (Sichtbarkeit)*/
 
 .border, .border * {
-    border: 1px solid rgb(239, 134, 89);
+    border: 1px solid rgb(255, 255, 255);
 }
 
 [class *='col-'] {
-    background-color: orange;
+    background-color: rgb(255, 255, 255);
+}
+
+h1 {
+    text-align: left;
+}
+
+h2 {
+    text-align: left;
 }
 
 p {
-    background-color:rgb(147, 12, 12);
+    background-color:rgb(255, 255, 255);
     padding: 0;
     margin: 0;
-    color: #ffffff;
-    text-align: center;
+    color: rgb(0, 0, 0);
+    text-align: left;
 }
+
 
 /* Grid-System*/
 
@@ -170,4 +179,12 @@ p {
 
     .col-3 { width: 100%; }
 
+}
+
+/*IMPRESSUM*/
+
+#impressum a {
+    color: rgb(80, 80, 80);
+    text-decoration: none;
+    font-weight: bold;
 }
