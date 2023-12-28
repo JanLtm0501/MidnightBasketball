@@ -1,43 +1,98 @@
-<!DOCTYPE html> <!--Jan-->
+<!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>3x3</title>
-        <link rel="stylesheet" tpye="text/css" href="src/css/styles.css">
-        
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3x3</title>
+    <link rel="stylesheet" type="text/css" href="src/css/styles.css">
+</head>
 
-    <body>
+<body>
 
-        <!--Navigationsleiste-->
+    <!-- Navigationsleiste -->
 
-        <nav class="header-nav">
-
-            <a href="index.html"> <!--Ankerelement -> Logo anklickbar und führt auf Startseite-->
-                <img src="src/img/LogoSchwarzWeiß.PNG" alt="Das Logo von MidnightBasketball">   
-            </a>
-
-            
-
-            <ul>   
-                <li><a href="index.html">Startseite</a></li>
-                <li><a href="AboutUs.html">AboutUs</a></li>
-                <li class="active"><a href="3x3.html">3x3</a></li>
-                <li><a href="kotc.html">King of the court</a></li>
-                <li><a href="kalender.html">Kalender</a></li>
-                <li><a href="info.html">Info/Kontakt</a></li>
-                <li><a href="impressum.html">Impressum</a></li>
-            </ul> <!--Reiter (ul = ungeordnete Liste und li = list Item und a = Ankertelement)--> 
+    <nav class="header-nav">
 
 
-        </nav>
+        <div class="container desktop-nav">
+            <div class="row">
+                <div class="col-6">
 
-        <!-- Header-Banner-->
+                    <a href="index.html">
+                        <img src="src/img/LogoSchwarzWeiß.PNG" alt="Das Logo von MidnightBasketball">
+                    </a>
 
-        <header class="header-banner"></header>
+                    <ul>
+                        <li><a href="index.html">Startseite</a></li>
+                        <li><a href="AboutUs.html">AboutUs</a></li>
+                        <li  class="active"><a href="3x3.html">3x3</a></li>
+                        <li><a href="kotc.html">King of the court</a></li>
+                        <li><a href="kalender.html">Kalender</a></li>
+                        <li><a href="anfahrt.html">Anfahrt</a></li>
+                        <li><a href="impressum.html">Impressum</a></li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </div>
 
 
+        <div class="container mobile-nav">
+            <div class="row">
+                <div class="col-6">
+                    <a href="index.html">
+                        <img src="src/img/LogoSchwarzWeiß.PNG" alt="Das Logo von MidnightBasketball">
+                    </a>
+
+                    <div class="mobile-nav-dropdown clearfix"> <!--Dropdown unter Button //CSS -> Global Z.20-->
+
+                        <div class="mobile-nav-button"><span>&equiv;</span></div> <!--Hamburger Button für Dropdown (entities)-->
+
+                        <div class="mobile-nav-content clearfix">
+
+                            <ul>
+                                <li><a href="index.html">Startseite</a></li>
+                                <li><a href="AboutUs.html">AboutUs</a></li>
+                                <li  class="active"><a href="3x3.html">3x3</a></li>
+                                <li><a href="kotc.html">King of the court</a></li>
+                                <li><a href="kalender.html">Kalender</a></li>
+                                <li><a href="anfahrt.html">Anfahrt</a></li>
+                                <li><a href="impressum.html">Impressum</a></li>
+                            </ul>  
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header-Banner -->
+
+    <header class="header-banner"></header>
+
+    <!-- 3x3-Turnier-Inhalt -->
+
+    <section class="three-on-three-content">
+        <div class="container">
+            <h2>3 gegen 3 Turnier</h2>
+            <p>Hier kannst du dich in die Liste eintragen, um am Tag des Turniers in zufällige Dreier-Teams aufgeteilt zu werden.</p>
+            <form id="registrationForm">
+                <label for="participantName">Dein Name:</label>
+                <input type="text" id="participantName" required>
+                <button type="button" onclick="registerParticipant()">Anmelden</button>
+            </form>
+            <button onclick="randomTeams()">Teams generieren</button>
+            <ul id="participantsList"></ul>
+        </div>
+    </section>
+
+    <button id="generateTeamsButton" onclick="randomTeams()" disabled>Teams generieren</button>
+
+    <!-- ... (nachfolgender Code) ... -->
+    
+    <script src="src/js/3x3.js"></script>
+    
     </body>
-</html>
+    
+    </html>
