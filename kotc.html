@@ -1,43 +1,97 @@
-<!DOCTYPE html> <!--Jan-->
+<!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>King of the court</title>
-        <link rel="stylesheet" tpye="text/css" href="src/css/styles.css">
-        
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>King of the Court</title>
+    <link rel="stylesheet" type="text/css" href="src/css/styles.css">
+</head>
 
-    <body>
+<body>
 
-        <!--Navigationsleiste-->
+    <!-- Navigationsleiste -->
 
-        <nav class="header-nav">
+    <nav class="header-nav">
 
-            <a href="index.html"> <!--Ankerelement -> Logo anklickbar und führt auf Startseite-->
-                <img src="src/img/LogoSchwarzWeiß.PNG" alt="Das Logo von MidnightBasketball">   
-            </a>
 
+        <div class="container desktop-nav">
+            <div class="row">
+                <div class="col-6">
+
+                    <a href="index.html">
+                        <img src="src/img/LogoSchwarzWeiß.PNG" alt="Das Logo von MidnightBasketball">
+                    </a>
+
+                    <ul>
+                        <li><a href="index.html">Startseite</a></li>
+                        <li><a href="AboutUs.html">AboutUs</a></li>
+                        <li><a href="3x3.html">3x3</a></li>
+                        <li  class="active"><a href="kotc.html">King of the court</a></li>
+                        <li><a href="kalender.html">Kalender</a></li>
+                        <li><a href="anfahrt.html">Anfahrt</a></li>
+                        <li><a href="impressum.html">Impressum</a></li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container mobile-nav">
+            <div class="row">
+                <div class="col-6">
+                    <a href="index.html">
+                        <img src="src/img/LogoSchwarzWeiß.PNG" alt="Das Logo von MidnightBasketball">
+                    </a>
+
+                    <div class="mobile-nav-dropdown clearfix"> <!--Dropdown unter Button //CSS -> Global Z.20-->
+
+                        <div class="mobile-nav-button"><span>&equiv;</span></div> <!--Hamburger Button für Dropdown (entities)-->
+
+                        <div class="mobile-nav-content clearfix">
+
+                            <ul>
+                                <li><a href="index.html">Startseite</a></li>
+                                <li><a href="AboutUs.html">AboutUs</a></li>
+                                <li><a href="3x3.html">3x3</a></li>
+                                <li  class="active"><a href="kotc.html">King of the court</a></li>
+                                <li><a href="kalender.html">Kalender</a></li>
+                                <li><a href="anfahrt.html">Anfahrt</a></li>
+                                <li><a href="impressum.html">Impressum</a></li>
+                            </ul>  
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header-Banner -->
+    <header class="header-banner"></header>
+
+    <!-- King of the Court-Inhalt -->
+    <section class="king-of-the-court-content">
+        <div class="container">
+            <img src="src/img/kingofthecourt.webp" alt="Bild kotc">
+            <p class="kotc-heading">Aktueller Gewinner: <span id="current-winner">Jan L</span></p>
+            <div id="countdown"></div>
+            <br>
+            <br>
+            <p>King of the Court, auch bekannt als "König des Spielfelds", ist ein faszinierendes Basketballspiel, das die 
+                individuellen Fähigkeiten, Schnelligkeit und Geschicklichkeit der Spieler herausfordert. Es wird oft in Trainings- oder Freizeitsituationen verwendet, um die Spieler in einem Wettbewerbsformat gegeneinander antreten zu lassen.
+
+                Das Ziel von King of the Court ist es, als erster Spieler 7 Punkte zu erreichen, wobei 
+                Dreipunktewürfe 2 Punkte einbringen.
+                
+                King of the Court fördert intensives, eins-zu-eins-Spielen, verbessert die individuellen Fähigkeiten 
+                und bietet eine unterhaltsame und wetteifernde Atmosphäre für Basketballspieler aller Niveaus.
+            </p>
             
+        </div>
+    </section>
 
-            <ul>   
-                <li><a href="index.html">Startseite</a></li>
-                <li><a href="AboutUs.html">AboutUs</a></li>
-                <li><a href="3x3.html">3x3</a></li>
-                <li class="active"><a href="kotc.html">King of the court</a></li>
-                <li><a href="kalender.html">Kalender</a></li>
-                <li><a href="info.html">Info/Kontakt</a></li>
-                <li><a href="impressum.html">Impressum</a></li>
-            </ul> <!--Reiter (ul = ungeordnete Liste und li = list Item und a = Ankertelement)--> 
+    <script src="src/js/kingofthecourt.js"></script>
+</body>
 
-
-        </nav>
-
-        <!-- Header-Banner-->
-
-        <header class="header-banner"></header>
-
-
-    </body>
 </html>
