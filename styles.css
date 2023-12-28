@@ -15,7 +15,7 @@ body {
     box-sizing: border-box;
 }
 
-/*GENERELLES*/
+/*Clearfix "Hack"*/
 
 .clearfix::after {
     content: "";
@@ -23,7 +23,7 @@ body {
     clear: both;
 }
 
-/* Navigationsleiste */
+/* === Navigationsleiste === */
 
 .header-nav {
     width: 100%;
@@ -71,7 +71,7 @@ body {
 
 .header-nav ul > li > a:hover {
     color: rgb(239, 134, 89);
-    /* Grüner Hover-Effekt */
+    /* Oranger Hover-Effekt */
 }
 
 .header-nav .col-6 {
@@ -90,9 +90,9 @@ height: 100%;
     /* Keine Änderung beim Aktiv-Effekt */
 }
 
-.active {
-    background-color: rgb(239, 134, 89);
-} /*Reiter der aktiv ist wird gefärbt*/
+
+
+
 
 /*Navigationsleiste für mobile Geräte*/
 
@@ -105,31 +105,59 @@ height: 100%;
     height: 35px;
     position: relative;
     margin-top: 2rem;
+    margin-right: 6rem;
 }
 
 .mobile-nav-button > span {
     position: absolute;
     bottom: -7px;
-    left: 3px;
+    left: 3.5px;
 }
 
-.mobile-nav-content > ul >li {
+/*Dropdown Sichtbarkeit*/
+.mobile-nav-content > ul > li {
     display: block;
-    background-color: rgb(49, 47, 52);
-    height: 70px;
-    padding: 0 1.2rem;
-    text-align: center;
+    background-color: rgb(14, 14, 14);
+    height: 70px; /*Abstand zwischen Reitern*/
+    padding: 0 3.8rem; 
+    text-align: center; /*Reiter zentriert*/
 }
 
 .mobile-nav-dropdown {
     position: relative;
+    display: inline-block;
+    float: right;
 }
 
 .mobile-nav-content {
     position: absolute;
     right: 0;
     top: 70px;
+    display: none;
 }
+
+.mobile-nav-dropdown:hover > .mobile-nav-content { /*Dropdown nach hover*/
+    display: block;
+}
+
+.mobile-nav {
+    display: none;
+}
+
+@media (max-width: 768px) {
+
+    .desktop-nav {
+        display: none;
+    }
+
+    .mobile-nav {
+        display: block;
+    }
+}
+
+.active {
+    background-color: rgb(239, 134, 89) !important; 
+} /*Reiter der aktiv ist wird gefärbt*/
 
 
 /*HEADER-BANNER*/
@@ -229,7 +257,7 @@ p {
     .col-3 { width: 100%; }  
 }
 
-@meida (max-width: 488px) {
+@media (max-width: 488px) {
 
     .col-1 { width: 100%; }
 
@@ -239,10 +267,161 @@ p {
 
 }
 
-/*IMPRESSUM*/ /*Andreas*/
 
-#impressum a {
-    color: rgb(80, 80, 80);
+
+/* Startseite */
+.startseite h2 {
+    font-size: 28px;
+    margin-left: 40px;
+    padding: 10px; /* Innenabstand für den Rahmen */
+}
+
+.startseite p {
+    font-weight: bold;
+    line-height: 1.6;
+    margin-left: 40px;
+    padding: 10px; /* Innenabstand für den Rahmen */
+}
+
+.startseite img {
+    width: 30%; /* Breite anpassen */
+    margin: 0 1%; /* Kleiner Abstand zwischen den Bildern hinzufügen */
+    display: inline-block; /* Bilder in Reihe */
+    margin-left: 40px;
+    border: 1px solid #000; /* Rahmen hinzufügen - Farbe kann nach Bedarf angepasst werden */
+    padding: 10px; /* Innenabstand für den Rahmen */
+}
+
+
+
+
+
+
+
+
+
+
+/*AboutUs*/ /*Jan*/
+.about-us-content {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.about-us-content h2 {
+    color: #000000; /* Überschriftsfarbe */
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.about-us-content p {
+    color: #000000;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.about-us-content a {
+    color: rgb(239, 134, 89); /* Orange Linkfarbe, kann nach Wunsch angepasst werden */
     text-decoration: none;
     font-weight: bold;
 }
+
+.about-us-content a:hover {
+    text-decoration: underline; /* Unterstrich beim Überfahren mit der Maus */
+}
+
+/*Bilder von AboutUs*/
+.about-us-content img {
+    width: 30%; /* Breite anpassen */
+    margin: 0 1%; /*kleinen Abstand zwischen den Bildern hinzu */
+    display: inline-block; /* Bilder in Reihe */
+    border: 1px solid #000;
+    padding: 10px; /* Innenabstand für den Rahmen */
+}
+
+
+.about-us-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Umbruch, falls der Platz nicht ausreicht */
+}
+
+
+
+
+
+
+
+
+
+/*--King of the Court--*/ /*Jan*/
+.king-of-the-court-content {
+    margin: 20px;
+    padding: 20px;
+    font-weight: bold;
+    border: 1px solid rgb(0, 0, 0); /*Kasten*/
+}
+
+/*Bild King of the Court*/
+.king-of-the-court-content img {
+    width: 30%; /* Du kannst die Breite nach Bedarf anpassen */
+    margin: 0 auto; /* Zentriere das Bild horizontal */
+    display: block; /* Stelle sicher, dass das Bild allein in einer Zeile steht */
+}
+
+/* King of the Court Content */
+.king-of-the-court-content {
+    text-align: center; /* Zentriere den Text im Container */
+}
+
+/*Countdown King of the Court*/
+#countdown {
+    text-align: center; /* Zentriere den Text im Container */
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+#current-winner {
+    text-align: center; /* Zentriert den Text */
+    font-size: 40px; /*Schriftgröße*/
+    color: rgb(239, 134, 89);
+    font-weight: bold;
+}
+
+/* Aktueller Gewinner */
+#current-winner {
+    color: rgb(239, 134, 89);
+    font-weight: bold;
+    font-size: 24px; /* Du kannst die Schriftgröße nach Bedarf anpassen */
+    display: block; /* Setze auf 'block', um die neue Zeile zu erzwingen */
+    margin: 10px 0; /* Füge oben und unten einen Abstand hinzu */
+}
+
+/* Text "Aktueller Gewinner" */
+.kotc-heading {
+    font-size: 24px; /* Du kannst die Schriftgröße nach Bedarf anpassen */
+    font-weight: bold;
+    margin-bottom: 10px; /* Füge unten einen Abstand hinzu */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*IMPRESSUM*/ /*Andreas*/
+
+#impressum a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+}
+
