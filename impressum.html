@@ -11,28 +11,62 @@
 
     <body> 
 
-        <!--Navigationsleiste-->
+    <!-- Navigationsleiste -->
 
-        <nav class="header-nav">
-
-            <a href="index.html"> <!--Ankerelement -> Logo anklickbar und führt auf Startseite-->
-                <img src="src/img/LogoSchwarzWeiß.PNG" alt="Das Logo von MidnightBasketball">   
-            </a>
-
-            
-
-            <ul>   
-                <li><a href="index.html">Startseite</a></li>
-                <li><a href="AboutUs.html">AboutUs</a></li>
-                <li><a href="3x3.html">3x3</a></li>
-                <li><a href="kotc.html">King of the court</a></li>
-                <li><a href="kalender.html">Kalender</a></li>
-                <li><a href="anfahrt.html">Anfahrt</a></li>
-                <li class="active"><a href="impressum.html">Impressum</a></li>
-            </ul> <!--Reiter (ul = ungeordnete Liste und li = list Item und a = Ankertelement)--> 
+    <nav class="header-nav">
 
 
-        </nav>
+        <div class="container desktop-nav">
+            <div class="row">
+                <div class="col-6">
+
+                    <a href="index.html">
+                        <img src="src/img/LogoSchwarzWeiß.PNG" alt="Das Logo von MidnightBasketball">
+                    </a>
+
+                    <ul>
+                        <li><a href="index.html">Startseite</a></li>
+                        <li><a href="AboutUs.html">AboutUs</a></li>
+                        <li><a href="3x3.html">3x3</a></li>
+                        <li><a href="kotc.html">King of the court</a></li>
+                        <li><a href="kalender.html">Kalender</a></li>
+                        <li><a href="anfahrt.html">Anfahrt</a></li>
+                        <li  class="active"><a href="impressum.html">Impressum</a></li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container mobile-nav">
+            <div class="row">
+                <div class="col-6">
+                    <a href="index.html">
+                        <img src="src/img/LogoSchwarzWeiß.PNG" alt="Das Logo von MidnightBasketball">
+                    </a>
+
+                    <div class="mobile-nav-dropdown clearfix"> <!--Dropdown unter Button //CSS -> Global Z.20-->
+
+                        <div class="mobile-nav-button"><span>&equiv;</span></div> <!--Hamburger Button für Dropdown (entities)-->
+
+                        <div class="mobile-nav-content clearfix">
+
+                            <ul>
+                                <li><a href="index.html">Startseite</a></li>
+                                <li><a href="AboutUs.html">AboutUs</a></li>
+                                <li><a href="3x3.html">3x3</a></li>
+                                <li><a href="kotc.html">King of the court</a></li>
+                                <li><a href="kalender.html">Kalender</a></li>
+                                <li><a href="anfahrt.html">Anfahrt</a></li>
+                                <li  class="active"><a href="impressum.html">Impressum</a></li>
+                            </ul>  
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
 
         <!-- Header-Banner-->
 
@@ -53,8 +87,8 @@
                 Ulrich-Brisch-Weg 1<br />
                 50858 K&ouml;ln</p>
     
-                <p><strong>Vertreten durch:</strong><br />
-                &#91;Vor- und Nachnamen der vertretungsberechtigten Personen&#93;</p>
+                <p><strong>Vertreten durch:</strong><br/>
+                Arsim Mulija (CEO)</p>
     
                 <h2>Kontakt</h2>
                 <p>Telefon: 0221-921 300 32<br />
