@@ -1,82 +1,124 @@
-<!DOCTYPE html> <!--Jan-->
+<!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--wudth=divice-width -> Breite passt sich an Breite des Endgerätes an-->
-        <title>Startseite</title>                                              <!--initial-scale=1.0 -> Webseite soll mit "normalen" Zoomlevel geöffnet werden-->
-        <link rel="stylesheet" tpye="text/css" href="src/css/styles.css">
-        
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Startseite</title>
+    <link rel="stylesheet" type="text/css" href="src/css/styles.css">
+    <link rel="stylesheet" type="text/css" href="src/css/custom-styles.css">
+</head>
 
-    <body>
+<body>
 
-        <!--Navigationsleiste-->
+    <!-- Navigationsleiste -->
 
-        <nav class="header-nav">
+    <nav class="header-nav">
 
-            <!--
-            <div class="container">
-                <div class="row">
-                    <div class="col-6">
 
-                        <a href="index.html"> 
-                            <img src="src/img/LogoSchwarzWeiß.PNG" alt="Das Logo von MidnightBasketball">   
-                        </a>
-            
-                        
-            
-                        <ul>   
-                            <li class="active"><a href="index.html">Startseite</a></li>
-                            <li><a href="AboutUs.html">AboutUs</a></li>
-                            <li><a href="3x3.html">3x3</a></li>
-                            <li><a href="kotc.html">King of the court</a></li>
-                            <li><a href="kalender.html">Kalender</a></li>
-                            <li><a href="anfahrt.html">Anfahrt</a></li>
-                            <li><a href="impressum.html">Impressum</a></li>
-                        </ul> 
-                    </div>
-                </div>
-            </div> -->
+        <div class="container desktop-nav">
+            <div class="row">
+                <div class="col-6">
 
-            <div class="container">
-                <div class="row">
-                    <div class="col-6">
+                    <a href="index.html">
+                        <img src="src/img/LogoSchwarzWeiß.PNG" alt="Das Logo von MidnightBasketball">
+                    </a>
 
-                        <a href="index.html"> 
-                            <img src="src/img/LogoSchwarzWeiß.PNG" alt="Das Logo von MidnightBasketball">   
-                        </a>
-
-                        <div class="mobile-nav-dropdown clearfix">
-
-                            <div class="mobile-nav-button"><span>&equiv;</span></div>
-
-                            <div class="mobile-nav-content clearfix">
-            
-                                <ul>   
-                                    <li><a href="index.html">Startseite</a></li>
-                                    <li><a href="AboutUs.html">AboutUs</a></li>
-                                    <li><a href="3x3.html">3x3</a></li>
-                                    <li><a href="kotc.html">King of the court</a></li>
-                                    <li><a href="kalender.html">Kalender</a></li>
-                                    <li><a href="anfahrt.html">Anfahrt</a></li>
-                                    <li><a href="impressum.html">Impressum</a></li>
-                                </ul> 
-
-                            </div>
-
-                        </div>
-            
-                        
+                    <ul>
+                        <li  class="active"><a href="index.html">Startseite</a></li>
+                        <li><a href="AboutUs.html">AboutUs</a></li>
+                        <li><a href="3x3.html">3x3</a></li>
+                        <li><a href="kotc.html">King of the court</a></li>
+                        <li><a href="kalender.html">Kalender</a></li>
+                        <li><a href="anfahrt.html">Anfahrt</a></li>
+                        <li><a href="impressum.html">Impressum</a></li>
+                    </ul>
+                    
                 </div>
             </div>
+        </div>
 
-        </nav>
 
-        <!-- Header-Banner-->
+        <div class="container mobile-nav">
+            <div class="row">
+                <div class="col-6">
+                    <a href="index.html">
+                        <img src="src/img/LogoSchwarzWeiß.PNG" alt="Das Logo von MidnightBasketball">
+                    </a>
 
-        <header class="header-banner"></header>
+                    <div class="mobile-nav-dropdown clearfix"> <!--Dropdown unter Button //CSS -> Global Z.20-->
 
-    </body>
+                        <div class="mobile-nav-button"><span>&equiv;</span></div> <!--Hamburger Button für Dropdown (entities)-->
+
+                        <div class="mobile-nav-content clearfix">
+
+                            <ul>
+                                <li class="active"><a href="index.html">Startseite</a></li>
+                                <li><a href="AboutUs.html">AboutUs</a></li>
+                                <li><a href="3x3.html">3x3</a></li>
+                                <li><a href="kotc.html">King of the court</a></li>
+                                <li><a href="kalender.html">Kalender</a></li>
+                                <li><a href="anfahrt.html">Anfahrt</a></li>
+                                <li><a href="impressum.html">Impressum</a></li>
+                            </ul>  
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header-Banner -->
+
+    <header class="header-banner">
+    </header>
+
+    <!-- Startseite Inhalt -->
+
+    <section class="startseite-container">
+        <div class="startseite">
+            <h2>Was ist MidnightBasketball???</h2>
+            <p>Willkommen bei Midnight Basketball, der besten 
+                Basketball-Session der Stadt, die <br>
+                jeden Freitag 
+                von 22 Uhr bis Mitternacht stattfindet! 
+                Hier geht es um gute Vibes und jede Menge Spaß.
+            </p>
+            <p>Egal, ob du ein Pro oder ein totaler 
+                Anfänger bist – Jeder ist herzlich Willkommen!
+                Das offene Gym <br> ist der 
+                Place-to-Be für alle, die Basketball lieben oder 
+                einfach nur Bock auf eine entspannte Zeit haben.
+            </p>
+                
+            <p>Die Atmosphäre ist entspannt, für Musik ist gesorgt und 
+                der Court wartet nur auf deine Skills. <br>Hier zählt nicht, wie 
+                viele Punkte du machst, sondern dass du mit einem Grinsen auf 
+                dem Gesicht spielst!
+            </p>
+                
+            <p>Komm einfach mal vorbei und schau selbst! Bei Midnight Basketball
+                geht's locker zu und wir haben <br> immer Platz 
+                für neue Gesichter. Schluss mit langweiligen Freitagabenden – hier 
+                wartet die entspannte <br> Basketball-Session auf dich. Sei dabei und 
+                lass uns gemeinsam einen coolen Abend auf dem Court erleben!
+            </p>
+                
+            <p>Freitag, 22 Uhr – Mitternacht. Sei ready für den Midnight-Vibe!
+            </p>
+            
+
+
+            <img src="src/img/Basketball_Men_Black_background_Jump_Ball_531587_1920x1080.jpg" alt="Bild1">
+
+            <img src="src/img/1624086734_37-phonoteka_org-p-basketbol-oboi-krasivo-43.jpg" alt="Bild2">
+
+            <img src="src/img/basketball-player-dunking-ball.jpg" alt="Bild3">
+
+        </div>
+    
+    </section>  
+
+</body>
+
 </html>
-
