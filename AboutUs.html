@@ -1,43 +1,102 @@
-<!DOCTYPE html> <!--Jan-->
+<!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>AboutUs</title>
-        <link rel="stylesheet" tpye="text/css" href="src/css/styles.css">
-        
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AboutUs</title>
+    <link rel="stylesheet" type="text/css" href="src/css/styles.css">
+</head>
 
-    <body>
+<body>
 
-        <!--Navigationsleiste-->
+    <!-- Navigationsleiste -->
 
-        <nav class="header-nav">
-
-            <a href="index.html"> <!--Ankerelement -> Logo anklickbar und führt auf Startseite-->
-                <img src="src/img/LogoSchwarzWeiß.PNG" alt="Das Logo von MidnightBasketball">   
-            </a>
-
-            
-
-            <ul>   
-                <li><a href="index.html">Startseite</a></li>
-                <li class="active"><a href="AboutUs.html">AboutUs</a></li>
-                <li><a href="3x3.html">3x3</a></li>
-                <li><a href="kotc.html">King of the court</a></li>
-                <li><a href="kalender.html">Kalender</a></li>
-                <li><a href="info.html">Info/Kontakt</a></li>
-                <li><a href="impressum.html">Impressum</a></li>
-            </ul> <!--Reiter (ul = ungeordnete Liste und li = list Item und a = Ankertelement)--> 
+    <nav class="header-nav">
 
 
-        </nav>
+        <div class="container desktop-nav">
+            <div class="row">
+                <div class="col-6">
 
-        <!-- Header-Banner-->
+                    <a href="index.html">
+                        <img src="src/img/LogoSchwarzWeiß.PNG" alt="Das Logo von MidnightBasketball">
+                    </a>
 
-        <header class="header-banner"></header>
+                    <ul>
+                        <li><a href="index.html">Startseite</a></li>
+                        <li  class="active"><a href="AboutUs.html">AboutUs</a></li>
+                        <li><a href="3x3.html">3x3</a></li>
+                        <li><a href="kotc.html">King of the court</a></li>
+                        <li><a href="kalender.html">Kalender</a></li>
+                        <li><a href="anfahrt.html">Anfahrt</a></li>
+                        <li><a href="impressum.html">Impressum</a></li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </div>
 
 
-    </body>
+        <div class="container mobile-nav">
+            <div class="row">
+                <div class="col-6">
+                    <a href="index.html">
+                        <img src="src/img/LogoSchwarzWeiß.PNG" alt="Das Logo von MidnightBasketball">
+                    </a>
+
+                    <div class="mobile-nav-dropdown clearfix"> <!--Dropdown unter Button //CSS -> Global Z.20-->
+
+                        <div class="mobile-nav-button"><span>&equiv;</span></div> <!--Hamburger Button für Dropdown (entities)-->
+
+                        <div class="mobile-nav-content clearfix">
+
+                            <ul>
+                                <li><a href="index.html">Startseite</a></li>
+                                <li  class="active"><a href="AboutUs.html">AboutUs</a></li>
+                                <li><a href="3x3.html">3x3</a></li>
+                                <li><a href="kotc.html">King of the court</a></li>
+                                <li><a href="kalender.html">Kalender</a></li>
+                                <li><a href="anfahrt.html">Anfahrt</a></li>
+                                <li><a href="impressum.html">Impressum</a></li>
+                            </ul>  
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header-Banner -->
+
+    <header class="header-banner">
+    </header>
+
+    <!-- AboutUs-Inhalt -->
+
+    <section class="about-us-content">
+        <div class="container">
+            <h2>MITTERNACHTSSPORT SPONSERED BY SPORTJUGEND KÖLN</h2>
+            <p>Beim Mitternachtssport handelt es sich um ein nächtliches Sportangebot, welches von Jugendlichen und jungen Erwachsenen im Alter 
+                von 16 bis 27 Jahren genutzt wird. Die Angebote finden meist freitags in der Zeit von 22:00-24:00 statt. Das Angebotsformat ist 
+                nicht auf bestimmte Sportarten eingegrenzt, aber es hat sich herausgestellt, dass gerade Fußball, Basketball, Boxen und Tanzen von der Zielgruppe gut angenommen werden.</p>
+            <p>Durch Selbstregulation innerhalb der Sportgruppe und die Beachtung vereinfachter Regeln der jeweiligen Sportart wird allen 
+                Beteiligten deutlich, wie wichtig es ist, sich an Absprachen zu halten, fair miteinander umzugehen und andere mit ihren 
+                individuellen Fähigkeiten zu akzeptieren. Die pädagogische sowie sportpraktische Qualifikation der Übungsleiter/innen 
+                unterstützen das Erlernen sozialer Fähigkeiten im Gruppengefüge. Der Erfolg des Mitternachtssports liegt im Charakter 
+                eines "offenen" Angebots. Bei den Jugendlichen geht es dabei in erster Linie um Spaß ohne Leistungsdruck. Sie nehmen 
+                daher mit hoher Motivation teil und begeben sich automatisch in Lernprozesse.</p>
+            <p>Zusätzlich zu den regelmäßigen Angeboten gibt es weitere Aktionen wie Turniere oder Aufführungen der Jugendlichen, welche die Motivation weiter fördern. Durch die Kooperation mit einem naheliegenden Sportverein wird die Möglichkeit geboten, die Sportart über das Angebot hinaus zu betreiben und in vorhandene Strukturen eingebunden zu werden.</p>
+            <p>Aktuell gibt es in Köln <a href="https://www.sportjugend-koeln.de/a/dl/%C3%9Cbersicht_Mitternachtssport-Sportjugend-K%C3%B6ln-2023.pdf" target="_blank">32 Mitternachtssportangebote</a>, die über das gesamte Stadtgebiet verteilt sind.</p>
+            <br>
+            <br>
+            <!-- Bilder -->
+            <img src="src/img/Mitternachtssport1.jpg" alt="Bild 1">
+            <img src="src/img/Mitternachtssport2.jpg" alt="Bild 2">
+            <img src="src/img/LSBNRW_31001__DSC6896.jpg" alt="Bild 3">
+        </div>
+    </section>
+
+</body>
+
 </html>
