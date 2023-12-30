@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalender</title>
+    <link rel="stylesheet" type="text/css" href="src/css/Kalender1.css">
+</head>
+
+<body>
+
+    <!-- Navigationsleiste -->
+    <nav class="header-nav">
+        <div class="container desktop-nav">
+            <div class="row">
+                <div class="col-6">
+                    <a href="index.html">
+                        <img src="src/img/LogoSchwarzWeiß.PNG" alt="Das Logo von MidnightBasketball">
+                    </a>
+                    <ul>
+                        <li><a href="index.html">Startseite</a></li>
+                        <li><a href="AboutUs.html">AboutUs</a></li>
+                        <li><a href="kotc.html">King of the court</a></li>
+                        <li class="active"><a href="kalender.html">Kalender</a></li>
+                        <li><a href="anfahrt.html">Anfahrt</a></li>
+                        <li><a href="impressum.html">Impressum</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mobile-nav">
+            <div class="row">
+                <div class="col-6">
+                    <a href="index.html">
+                        <img src="src/img/LogoSchwarzWeiß.PNG" alt="Das Logo von MidnightBasketball">
+                    </a>
+                    <div class="mobile-nav-dropdown clearfix">
+                        <div class="mobile-nav-button"><span>&equiv;</span></div>
+                        <div class="mobile-nav-content clearfix">
+                            <ul>
+                                <li><a href="index.html">Startseite</a></li>
+                                <li><a href="AboutUs.html">AboutUs</a></li>
+                                <li><a href="kotc.html">King of the court</a></li>
+                                <li class="active"><a href="kalender.html">Kalender</a></li>
+                                <li><a href="anfahrt.html">Anfahrt</a></li>
+                                <li><a href="impressum.html">Impressum</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header-Banner -->
+    <header class="header-banner"></header>
+
+    <!-- Kalender -->
+    <div class="container">
+        <h2>Kalender</h2>
+        <table id="calendar">
+            <thead>
+                <tr>
+                    <th>Mo</th>
+                    <th>Di</th>
+                    <th>Mi</th>
+                    <th>Do</th>
+                    <th>Fr</th>
+                    <th>Sa</th>
+                    <th>So</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Kalenderinhalt wird hier mit JavaScript eingefügt -->
+            </tbody>
+        </table>
+
+        <script>
+            // JavaScript-Code für den Kalender
+            document.addEventListener('DOMContentLoaded', function () {
+                generateCalendar();
+            });
+
+            function generateCalendar() {
+                var calendarBody = document.getElementById('calendar').getElementsByTagName('tbody')[0];
+                var currentDate = new Date();
+                var year = currentDate.getFullYear();
+                var month = currentDate.getMonth();
+
+                var daysInMonth = new Date(year, month + 1, 0).getDate();
+                var firstDay = new Date(year, month, 1).getDay();
+
+                var dayCount = 1;
+
+                for (var i = 0; i < 6; i++) {
+                    var row = calendarBody.insertRow(i);
+
+                    for (var j = 0; j < 7; j++) {
+                        var cell = row.insertCell(j);
+
+                        if ((i === 0 && j < firstDay) || dayCount > daysInMonth) {
+                            // Leerzellen vor dem ersten Tag und nach dem letzten Tag des Monats
+                            cell.innerHTML = "";
+                        } else {
+                            cell.innerHTML = dayCount;
+                            dayCount++;
+                        }
+                    }
+                }
+            }
+        </script>
+    </div>
+
+</body>
+
+</html>
